@@ -84,15 +84,13 @@ public class Prueba extends SimpleFileVisitor<Path> {
 
                 }
 
-
-
                 System.out.printf("En el directorio %-50s \n", name);
                 System.out.println("Palabras unicas:    " + unicas);
                 System.out.println("Palabras vacias:    " + duplicadas);
 
 
-                System.out.println("El numero de palabras es " + u+ ",  de palabras unicas es "+i+",  de palabras vacias es "+r+" " +
-                        "y el porcentaje de palabras utiles es "+ t+"%");
+                System.out.println("El numero de palabras es " + u+ ", numero de palabras unicas es "+i+", numero");
+                System.out.println("de palabras vacias es "+r+" y el porcentaje de palabras utiles es "+ t+"%");
 
             } catch(IOException ex){
                 System.out.println(ex.getMessage());
